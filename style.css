@@ -1,0 +1,317 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:sans-serif,Arial !important; 
+	transition:all .5s ease;
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+}
+body, html{
+	height:100%;
+}
+img{
+	max-width:100%;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight:normal;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+ul li{
+	list-style:none;
+}
+p{
+	line-height:150%;
+	margin-bottom:2em;
+}
+.content_full{
+	width:960px;
+	height:auto;
+	margin:0 auto;
+	
+}
+.content{
+	width:960px;
+	margin:0 auto;
+	display:block;
+}
+.fix{
+	overflow:hidden;
+}
+.aligncenter{
+	display:block;
+	margin:0 auto;
+}
+.floatleft{
+	float:left;
+	
+}
+.floatright{
+	float:right;
+}
+/*--------------------------------------------*/
+.under_header{
+	background:url(img/ahsan-manzil-full-view.jpg) no-repeat;
+	background-size:1110px 301px;
+	height:297px;
+}
+.menu{
+	background:#000;
+	min-height:47px;
+	margin-bottom:2px;
+	width:960px;
+}
+.menu ul{
+	
+}
+.menu ul li:hover{
+	border-bottom:3px solid #fff;
+}
+.menu ul li{
+	float:left;
+	position:relative;
+	background:#000;
+}
+.menu ul li a{
+	padding:14px 20px;
+	color:#bdb9b9;
+	display:block;
+	transition:all .5s ease;
+	font-family:arial;
+	font-weight:bold;
+	font-size: 16px;
+}
+.menu ul li a:hover{
+	color:#fff;
+}
+
+.menu ul li ul{
+	position:absolute;
+	left:-99999px;
+
+}
+.menu ul li ul li{
+	width:150px;
+}
+.menu ul li:hover ul{
+	left:0px;
+	width:150px;
+}
+.menu ul li ul li{
+	position:relative;
+}
+.menu ul li ul li ul{
+	position:absolute;
+	top:-99999px;
+	
+}
+.menu ul li ul li:hover ul{
+	top:0;
+	left:150px;
+}
+
+
+.menu2{
+	background:url(img/bacg.png) repeat;
+	height:47px;
+	margin-top: 250px;
+    width: 959px;
+	
+}
+.menu2 ul{
+	
+}
+.menu2 ul li{
+	float:left;
+}
+.menu2 ul li:hover{
+	border-top:3px solid green;
+}
+.menu2 ul li a{
+	padding:15px 20px;
+	color:#bdb9b9;
+	display:block;
+	transition:all .5s ease;
+	font-family:arial;
+	font-weight:bold;
+	font-size: 16px;
+}
+.menu2 ul li a:hover{
+	color:#fff;
+}
+.undermenu_heder{padding-top:0; position:relative; margin-bottom:30px;margin-top:14px;margin-right:11px;}
+.undermenu_heder input{ width:250px; height:25px; border:1px solid #ababab; border-radius:5px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; padding:0 10px; background:#fff; font:normal 14px Arial, Helvetica, sans-serif; color:#1F5A9D; margin-top:-5px }
+.undermenu_heder input[type="submit"] { width:30px; height:27px; cursor:pointer; text-indent:-999999px; border:none;  background:url(img/srchIcon.png) no-repeat; position:absolute; right:-5px; top:5px; background-size:20px 20px; }
+
+.content_wrapper{
+	width:960px;
+
+}
+.leftcontent,.rightcontent{
+	width:200px;
+	background:#3a3b3f;
+	
+	
+}
+.leftcontent{
+	padding-bottom: 10px;
+}
+.rightcontent{
+	padding-bottom:2px
+}
+.leftcontent ul li a, .rightcontent ul li a{
+	color:#a37d7d;
+}
+.leftcontent ul li a:hover{
+	color:#fff;
+}
+.rightcontent ul li a:hover{
+	color:#fff;
+}
+.leftcontent ul li, .rightcontent ul li{
+	margin-top:2px;
+}
+.leftcontent h2, .rightcontent h2 {
+	width:100%;
+	background:#4253f7;
+	color:#fff;
+	padding:5px;
+	font-size:25px;
+
+}
+.leftcontent ul, .rightcontent ul{
+	padding:5px;
+}
+.middlecontent{
+	width:540px;
+	padding:10px;
+	background:#b4a7a7;
+}
+.content_wrapper input{
+	width:170px;
+	height:15px;
+	border-radius:5px;
+	margin-left:5px;
+	
+	
+}
+.leftcontent p, .rightcontent p{
+	margin-bottom:0px;
+	color:#A37D73;
+	margin-left:5px;
+	
+}
+.content_wrapper input[type="submit"]{
+	width:80px;
+	height: 23px;
+	background:#4253F7;
+	color:#fff;
+	margin-top:7px;
+	margin-left:5px;
+	cursor:pointer;
+}
+.content_wrapper input[type="submit"]:hover{
+	background:#fff;
+	color:#000;
+}
+.middlecontent h2{
+   
+    padding-left: 20px;
+    font-weight: bold;
+    background: url(img/3-bar-menu.png) no-repeat, #ddd;
+    background-size: 13px 12px;
+    background-position: 4px 8px;
+	margin: 10px -10px 15px -10px;
+}
+.middlecontent blockquote{
+	padding-left: 44px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 15px;
+    background: url(img/quote.png) no-repeat, #ddd;
+    background-size: 34px 34px;
+    background-position: 3px 0px;
+	border-left:5px solid orange;
+	margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+.footer{
+	background:#3A3B3F;
+	padding-bottom:20px;
+}
+.footer h2{
+	color:#fff;
+	border-bottom:2px solid #ddd;
+	width: 260px;
+}
+.footer a{
+	color:#A3735D;
+}
+.footer a:hover{
+	color:#fff;
+}
+.footer_left{
+	width:300px;
+	margin-right:20px;
+	padding:10px;
+}
+.footer_middle{
+	width:300px;
+	margin-right:20px;
+	padding:10px;
+}
+.footer_right{
+	padding:10px;
+	
+}
+.footer_right ul li img{
+	width:50px;
+	height:50px;
+	float:left;
+	padding:5px 7px;
+}
+
+.footer ul li{
+	margin-bottom:2px;
+	margin-top:2px;
+}
+.copysec{
+	background:#000;
+	padding:10px;
+	color:#fff;
+	text-align:center;
+}
+
+
+
+
+
+
+
+div#sticker {
+	
+}
+.stick {
+	position:fixed;
+	top:0px;
+	z-index:9999;
+}
+
+
+
+
+
+
+
+
+
+
